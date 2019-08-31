@@ -8,8 +8,7 @@
   <meta name="description" content="TestNG unit test results." />
 </head>
 <frameset cols="20%,*">
-  <frame src="suites.html" name="suites" />
-  <frame src="overview.html" name="main" />
+  <frame src="suites.html" name="suites" sandbox="allow-same-origin allow-scripts allow-forms"/>
+  <frame src="overview.html" name="main" sandbox="allow-same-origin allow-scripts allow-forms"/>
 </frameset>
 </html>
-        

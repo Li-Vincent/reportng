@@ -81,11 +81,7 @@
       #if ($output.size() > 0)
           <div class="screenshotimage">
               #foreach( $line in $output )
-                  #if ($meta.shouldEscapeOutput())
-                      $utils.escapeHTMLString($utils.getImageString($line))<br />
-                  #else
-                      $utils.getImageString($line)<br />
-                  #end
+                   $utils.getImageString($line)<br />
               #end
           </div>
       #end
